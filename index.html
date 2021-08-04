@@ -262,52 +262,50 @@
         <div class="col-lg-4 col-md-6 col-xs-12">
           <div class="table wow" data-wow-delay="1.2s">
             <div class="title">
-              <h3>Basic</h3>
+              <h3>Data Partner</h3>
             </div>
             <div class="pricing-header">
-              <p class="price-value">$12.90<span>/ Month</span></p>
+              <p class="price-value">Register data sets</p>
             </div>
             <ul class="description">
-              <li>Up to 5 projects </li>
-              <li>Up to 10 collabrators</li>
-              <li>2gb of storage</li>
+              <li>1. Run server on machine with datasets</li>
+              <li>2. Register server on the <a href="https://app.siloml.us">webapp</a></li>
+              <li>3. Grant researchers access to datasets on the <a href="https://app.siloml.us">webapp</a></li>
             </ul>
-            <button class="btn btn-common">Get It</button>
+            <a class="btn btn-common" href="https://github.com/SiloML/silo-dataowner">Run dataowner server</a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-12 active">
-          <div class="table wow " id="active-tb" data-wow-delay="1.2s">
+        <div class="col-lg-4 col-md-6 col-xs-12">
+          <div class="table wow " data-wow-delay="1.2s">
             <div class="title">
-              <h3>Profesional</h3>
+              <h3>Researcher</h3>
             </div>
             <div class="pricing-header">
-              <p class="price-value">$49.90<span>/ Month</span></p>
+              <p class="price-value">Connect to datasets</p>
             </div>
             <ul class="description">
-              <li>Up to 10 projects</li>
-              <li>Up to 20 collabrators</li>
-              <li>10gb of storage</li>
-              <li>Real-time collabration</li>
+              <li>1. Request access to datasets on the <a href="https://app.siloml.us">webapp</a></li>
+              <li>2. Run researcher server on machine they do data analysis on. </li>
             </ul>
-            <button class="btn btn-common">Get It</button>
+            <a class="btn btn-common" href="https://github.com/SiloML/silo-researcher">Run researcher server</a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-xs-12">
           <div class="table wow" data-wow-delay="1.2s">
             <div class="title">
-              <h3>Expert</h3>
+              <h3>Silo Platform</h3>
             </div>
             <div class="pricing-header">
-              <p class="price-value">$89.90<span>/ Month</span></p>
+              <p class="price-value">Orchestrate the learning</p>
             </div>
             <ul class="description">
-              <li>unlimited projects </li>
-              <li>Unlimited collabrators</li>
-              <li>Unlimited of storage</li>
-              <li>Real-time collabration</li>
-              <li>24x7 Support</li>
+              <li>1. We use <a href="https://www.tornadoweb.org/en/stable/">Tornado</a> to proxy private connections
+                between the
+                researcher and data owners.</li>
+              <li>2. Under the hood, the federated learning occurs on the data owner and researcher servers via the <a
+                  href="https://github.com/OpenMined/PySyft">PySyft</a> framework.</li>
             </ul>
-            <button class="btn btn-common">Get It</button>
+            <a class="btn btn-common" href="https://github.com/SiloML/silo-proxy">Inspect Proxy code</a>
           </div>
         </div>
       </div>
