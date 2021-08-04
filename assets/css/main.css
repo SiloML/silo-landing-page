@@ -81,6 +81,10 @@ ol li {
   position: relative;
 }
 
+.footer-logo {
+  font-size: 30px;
+}
+
 .padding-none {
   padding: 0px;
 }
@@ -306,7 +310,18 @@ hr {
   padding-left: 140px;
 }
 
+.text-wrapper-2 {
+  height: 100%;
+  display: table;
+  padding: 20px 0px;
+}
+
 .text-wrapper > div {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.text-wrapper-2 > div {
   vertical-align: middle;
   display: table-cell;
 }
@@ -407,6 +422,7 @@ hr {
 .navbar-brand {
   position: relative;
   padding: 0px;
+  font-size: 25px;
 }
 
 .top-nav-collapse {
